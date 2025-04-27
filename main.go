@@ -1,7 +1,5 @@
 package main
-
 import "fmt"
-
 func main() {
 	var num1, num2 int
 	var op string
@@ -37,13 +35,10 @@ func main() {
 				fmt.Println("Error:", err)
 			} else {
 				fmt.Println("Result of Division is:", result)
-
 			}
 		case "!":
 			fmt.Println("Exiting the program.")
 			flag = false
 		}
-
 	}
-
 }
